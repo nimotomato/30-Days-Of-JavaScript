@@ -13,7 +13,6 @@ container.append(wrapper)
 // get data
 const challenges = asabenehChallenges2020.challenges
 
-
 //PARAGRAPH
 // create paragraphs for every challenge
 let challengeParagraph;
