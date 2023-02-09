@@ -1,8 +1,8 @@
 const asabenehChallenges2020 = {
   description: 'Asabeneh Yetayeh challenges',
-  challengeTitle: 'Asabeneh Yetayeh challenges',
+  challengeTitle: 'Asabeneh Yetayeh challenges ',
   challengeSubtitle: '30DaysOfJavaScript Challenge',
-  challengeYear: 2020,
+  challengeYear: 2023,
   keywords: [
     'HTML',
     'HTML5',

@@ -34,7 +34,6 @@ for (let i = 0; i < h3.length; i++){
 }
 h3[h3.length-1].style.marginBottom = '50px'
 
-
 // Main content
 let container = document.querySelector('.countries-container')
 container.style.display = 'flex'
