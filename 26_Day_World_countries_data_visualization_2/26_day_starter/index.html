@@ -3,13 +3,33 @@
 
 <head>
 	<title>30DaysOfJavaScript:11 Day </title>
+	<link rel="stylesheet" href="./css/style.css" />
+	<script src="https://kit.fontawesome.com/bea950e22d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-	<h1>30DaysOfJavaScript:11 Day</h1>
-	<h2>Destructuring and Spread</h2>
+	<div class="search-container">
+		<h1 class="title">WORLD COUNTRIES LIST</h1>
+		<h2 class="subtitle"></h2>
+		<p class="search-info"></h2>
+		<div class="button-container">
+			<button class="start-search selected-button">STARTING WORD</button>
+			<button class="any-search unselected-button">SEARCH WITH ANY WORD</button>
+			<button class="sort-a-z unselected-button"><i class="fa-solid fa-arrow-down-a-z"></i></button>
+			<button class="sort-z-a selected-button" style="display:none"><i class="fa-solid fa-arrow-up-a-z"></i></button>
+		</div>
+		<div class="bar-container">
+			<input type="search" class="country-search" placeholder="Search country">
+			<i class="fa-solid fa-magnifying-glass fa-2x"></i>
+		</div>
+	</div>
+	<div class="countries-cointainer">
+	</div>
+
 
 	<script src="./data/countries.js"></script>
+	<script src="./scripts/setCountries.js"></script>
+	<script src="./scripts/search.js"></script>
 	<script src="./scripts/main.js"></script>
 
 </body>

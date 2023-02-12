@@ -12,26 +12,30 @@
 
 <body>
 	<header id="countries">
-		<h2>World Countries Data</h2>
-		<p class="subtitle"></p>
-		<p class="feedback"></p>
+		<h2 class="header-header">World Countries Data</h2>
+		<p class="header-subtitle"></p>
 	</header>
 	<main>
-
-		<div class="wrapper">
-			<div class="graph-buttons">
-				<button class="population">Population</button>
-				<button class="languages">Languages</button>
+		<div class="main-wrapper">
+			<div class="buttons-container">
+				<div class="graph-buttons">
+					<button class="population">Population</button>
+					<button class="languages">Languages</button>
+				</div>
+				<h4 class="graph-title"></h4>
 			</div>
-			<h4 class="graph-title"></h4>
-			<div class="graphs">
+			<div class="graph-container">
 				<div class="graph-wrapper" id="stat"></div>
 			</div>
 		</div>
 	</main>
 
 	<script src="./data/countries_data.js"></script>
-	<script src="./js/main.js"></script>
+	<script src="./scripts/dataManagement.js"></script>
+	<script src="./scripts/titles.js"></script>
+	<script src="./scripts/population.js"></script>
+	<script src="./scripts/languages.js"></script>
+	<script src="./scripts/main.js"></script>
 
 </body>
 

@@ -1,0 +1,81 @@
+body {
+    font-family: 'Montserrat';
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-header {
+    font-size: 36px;
+    color: orange;
+    margin-bottom: 0px;
+
+}
+
+.header-subtitle {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 4px lightgray;
+    width: 99vw;
+}
+
+.graph-buttons {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+button {
+    background-color: orange;
+    border-width: 0;
+    border-radius: 2px;
+    height: 30px;
+    width: 140px;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 3px;
+}
+
+.graph-title {
+    margin: 10px;
+    font-weight: 400;
+}
+
+.graph-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    box-shadow: 1px 1px 4px lightgray;
+    padding-top: 30px;
+}
+
+.item-wrapper {
+    display: grid;
+    grid-template-columns: 150px 500px 80px;
+}
+
+.item-percentage {
+    background-color: orange;
+    margin: 4px;
+    border-radius: 3px;
+    max-width: 99%;
+}
