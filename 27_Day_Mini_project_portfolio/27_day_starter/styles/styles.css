@@ -1,0 +1,119 @@
+body {
+    font-family: "montserrat";
+    margin-left: 300px;   
+    margin-right: 300px;   
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+}
+
+.title {
+    font-weight: 600;
+    letter-spacing: 10px;
+    margin-bottom: 40px;
+    font-size: 60px;
+}
+
+@keyframes rolling-banner {
+    from  {
+        margin-left: -10px;
+        opacity: 0.2;
+    }
+    to  {
+        margin-left: 15px;
+        opacity: 1;
+    }
+}
+
+.rolling-banner-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(240, 214, 214);
+    height: 70px;
+    padding-left: 20px;
+}
+
+.banner-icon {
+    padding-right: 5px;
+}
+
+.banner-text{
+    margin-left: 15px;
+}
+
+.links-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 120px;
+    height: 200px;
+}
+
+.description-container {
+    display: flex;
+    height: 80px;
+    line-height: 30px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.link-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(240, 214, 214);
+    box-shadow: 1px 1px 6px darkgray;
+    height: 160px;
+    width: 200px;
+    color: black;
+    text-transform: uppercase;
+}
+
+@keyframes grow {
+    from {
+        height: 160px; 
+        width: 200px;
+    }
+    to {
+        height: 180px; 
+        width: 220px;
+    }
+}
+
+.box-hover {
+    background-color: (240, 214, 214);
+    animation-name: grow;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    padding: 15px;
+}
+
+.box-default {
+    background-color: white;
+    padding: 15px;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0.1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.pulsing-footer-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.pulsing-text {
+    text-transform: uppercase;
+    margin-left: 5px;
+    font-size: 30px;
+}
