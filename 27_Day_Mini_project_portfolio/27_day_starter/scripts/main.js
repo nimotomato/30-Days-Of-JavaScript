@@ -4,8 +4,6 @@ const description = document.querySelector('.description');
 // Set description
 setDescription(description);
 
-// Get rolling banner container
-
 // Get banner data
 const bannerTitles = titles;
 
